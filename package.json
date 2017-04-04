@@ -1,0 +1,9 @@
+{
+  "name": "fmiras-site",
+  "description": "fmiras.com personal website",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "node server"
+  }
+}
