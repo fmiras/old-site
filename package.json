@@ -6,9 +6,18 @@
     "build": "next build",
     "start": "node server"
   },
+  "xo": {
+    "extends": "xo-react",
+    "esnext": true
+  },
   "dependencies": {
-    "next": "^2.0.1",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "next": "2.0.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  },
+  "devDependencies": {
+    "eslint-config-xo-react": "0.11.1",
+    "eslint-plugin-react": "6.10.3",
+    "xo": "0.18.1"
   }
 }
