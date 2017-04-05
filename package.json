@@ -3,6 +3,7 @@
   "description": "fmiras.com personal website",
   "scripts": {
     "dev": "next",
+    "test": "xo",
     "build": "next build",
     "start": "node server"
   },
