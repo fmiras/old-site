@@ -1,0 +1,101 @@
+@main-dark-bg: #43A047;
+@main-color: #4CAF50;
+@border-color: #248673;
+@white: #fff; 
+
+
+#header-top {
+    background: @main-dark-bg;
+}
+#header-bottom{
+    background-color: @main-color;
+} 
+#sticky-nav{
+    background-color: @main-color;
+}
+#skills{
+    .skill-line{
+        background: @main-color;
+
+
+        .skill-bar{
+
+            .progress{
+                background-color: @border-color;
+            }
+            .determinate{
+                background-color: @white;
+            }
+        }
+    }
+}
+.cd-timeline-img{
+  background-color: @main-color;
+}
+.cd-timeline-content{
+
+    span{
+        color: @main-color;
+    }
+
+}
+.market-place{
+    ul{
+        li{
+            a{
+              color: @main-color;
+            }
+        }
+    }
+}
+#pricing-table{
+    .pricing{
+        .plan{
+            .thumbnail{
+                .btn{
+                    background-color: @main-color;
+                }
+            }
+        }
+    }
+}
+
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), 
+input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), 
+input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid @main-color;
+}
+input[type=text]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label, 
+input[type=email]:focus:not([readonly])+label, 
+input[type=url]:focus:not([readonly])+label, 
+input[type=time]:focus:not([readonly])+label, 
+input[type=date]:focus:not([readonly])+label,
+input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label,
+input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label { 
+    color: @main-color;
+}
+
+.waves-me:focus {   
+    background-color: @main-color;
+}
+.btn{
+    background-color: @main-color;
+    
+    &:hover, &:focus{
+        background-color: @main-color;
+    }
+}
+.interests{    
+    ul{
+        li{
+            .fa{
+                color: @main-color;
+            }
+        }
+    }
+}
