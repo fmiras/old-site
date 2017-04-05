@@ -8,7 +8,13 @@
   },
   "xo": {
     "extends": "xo-react",
-    "esnext": true
+    "semicolon": false,
+    "esnext": true,
+    "ignores": "static/**",
+    "space": true,
+    "rules": {
+      "react/react-in-jsx-scope": 0
+    }
   },
   "dependencies": {
     "next": "2.0.1",
