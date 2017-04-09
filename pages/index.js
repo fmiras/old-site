@@ -49,11 +49,9 @@ export default () => (
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#works">Works</a></li>
-                    <li><a href="#portfolio">Portolio</a></li>
-                    <li><a href="#education">Education</a></li>
                     <li><a href="#blog">Blog</a></li>
-                    <li><a href="#pricing-table">Pricing</a></li>
-                    <li><a href="#clients">Client</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact-form">Contact</a></li>
                   </ul>
                   <ul className="side-nav" id="slide-out">
@@ -61,11 +59,9 @@ export default () => (
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#works">Works</a></li>
-                    <li><a href="#portfolio">Portolio</a></li>
-                    <li><a href="#education">Education</a></li>
                     <li><a href="#blog">Blog</a></li>
-                    <li><a href="#pricing-table">Pricing</a></li>
-                    <li><a href="#clients">Client</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact-form">Contact</a></li>
                   </ul>
                   <a href="#" data-activates="slide-out" className="button-collapse"><i className="mdi-navigation-menu"/></a>
@@ -75,6 +71,7 @@ export default () => (
           </div>
         </div>
       </header>
+
       <section id="about">
         <div className="container">
           <div className="row">
@@ -87,10 +84,12 @@ export default () => (
               <div className="col m12 s12 co-centered wow fadeIn a2" data-wow-delay="0.2s">
                 <div className="intro-content">
                   <h2>Federico Mirás</h2>
-                  <span>Creative Director of DeviserWeb</span>
-                  <p>Hello everyone, My name is Al Rayhan. I am User Interface Designer from Bangladesh. I started designing
-                                  things about 5 years ago. I love to explore design and interact people with it. I design Website, Icons, Logos,
-                                  Print Templates, Mobile & Desktop App.</p>
+                  <span>Hacker & Entrepeneur</span>
+                  <p>Hi! My name is Federico, you can just call me &quot;fefo&quot;.
+                  I&apos;m a 20-years old software developer and entrepreneurship enthusiastic
+                  always searching, discussing or creating ideas to turn them into high-tech projects.
+                  I&apos;m also a freelance developer!
+                  </p>
                   <a href="#" className="btn waves-effect">Download CV</a>
                   <a href="#contact-form" className="btn btn-success waves-effect">Contact Me</a>
                 </div>
@@ -113,25 +112,25 @@ export default () => (
                     <i className="fa fa-calendar-o"/>
                   </div>
                   <div className="skill-bar col m10 wow fadeIn a1" data-wow-delay="0.1s">
-                    <h3>Professional Skills </h3>
-                    <span>Adobe Photoshop</span>
+                    <h3>Technical Skills </h3>
+                    <span>CSS</span>
                     <div className="progress">
                       <div className="determinate"> 70% </div>
                     </div>
 
-                    <span>HTML</span>
+                    <span>Javascript</span>
                     <div className="progress">
                       <div className="determinate"> 95%</div>
                     </div>
 
-                    <span>CSS</span>
+                    <span>Java</span>
                     <div className="progress">
                       <div className="determinate">90%</div>
                     </div>
 
-                    <span>Javascript</span>
+                    <span>Software Architecture</span>
                     <div className="progress">
-                      <div className="determinate">85%</div>
+                      <div className="determinate">90%</div>
                     </div>
                   </div>
                 </div>
@@ -143,17 +142,17 @@ export default () => (
                     <h3>Personal Skills </h3>
                     <span>Communication</span>
                     <div className="progress">
-                      <div className="determinate"> 70% </div>
+                      <div className="determinate"> 85% </div>
                     </div>
 
                     <span>Team Work</span>
                     <div className="progress">
-                      <div className="determinate"> 95%</div>
+                      <div className="determinate"> 90%</div>
                     </div>
 
-                    <span>Creativity</span>
+                    <span>Client Management</span>
                     <div className="progress">
-                      <div className="determinate">90%</div>
+                      <div className="determinate">80%</div>
                     </div>
 
                     <span>Dedication</span>
@@ -167,6 +166,7 @@ export default () => (
           </div>
         </div>
       </section>
+
       <section id="works">
         <div className="container">
           <div className="row">
@@ -175,41 +175,61 @@ export default () => (
             </div>
             <div id="cd-timeline" className="cd-container">
               <div className="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
-                <div className="cd-timeline-img"/>                   			<div className="cd-timeline-content col m5 s12 z-depth-1">
-                  <a href=""><h2>UI & WEB DESIGNER @Academy</h2></a>
-                  <span>11 Jan 2015 </span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora.</p>
+                <div className="cd-timeline-img"/>
+                <div className="cd-timeline-content col m5 s12 z-depth-1">
+                  <a href="https://finance.strands.com/">
+                    <h2>Software Engineer <br/> Strands, Inc.</h2>
+                  </a>
+                  <span>May 2016 - Present </span>
+                  <p>Working as full stack web engineer at <a href="https://moneystrands.com/">
+                    <span>MoneyStrands</span></a>, a mobile application
+                  for iOS and Android to manage your personal finances with
+                  full integration to your bank. </p>
                 </div>
               </div>
               <div className="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
-                <div className="cd-timeline-img"/><div className="cd-timeline-content col m5 s12 z-depth-1">
-                  <a href=""><h2>UI & WEB DESIGNER @Academy</h2></a>
-                  <span>11 Jan 2015 </span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                   dolorum provident rerum aut hic quasi placeat iure tempora.</p>
+                <div className="cd-timeline-img"/>
+                <div className="cd-timeline-content col m5 s12 z-depth-1">
+                  <a href="https://onready.com.ar/"><h2>Cofounder <br/> onReady</h2></a>
+                  <span>Mar 2016 - Present </span>
+                  <p>Software Factory Startup where we guide our clients to bring their
+                   business to the internet and we develop end-to-end solutions.</p>
                 </div>
               </div>
               <div className="cd-timeline-block wow fadeIn a4" data-wow-delay="0.4s">
                 <div className="cd-timeline-img"/>
                 <div className="cd-timeline-content col m5 s12 z-depth-1">
                   <a href="">
-                    <h2>UI & WEB DESIGNER @Academy</h2>
+                    <h2>Freelance Software Engineer</h2>
                   </a>
-                  <span>11 Jan 2015 </span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora.</p>
+                  <span>Feb 2015 - Present </span>
+                  <p>Went threw many projects from minimal UI components for apps to
+                  implement end-to-end solutions helping business models to get done.</p>
                 </div>
               </div>
               <div className="cd-timeline-block wow fadeIn a5" data-wow-delay="0.5s">
                 <div className="cd-timeline-img"/>
                 <div className="cd-timeline-content col m5 s12 z-depth-1">
-                  <a href="">
-                    <h2>UI & WEB DESIGNER @Academy</h2>
+                  <a href="https://www.connectis-argentina.com/en-home">
+                    <h2>Full Stack Web Developer <br/> Connectis-ICT Services S.A.</h2>
                   </a>
-                  <span>11 Jan 2015 </span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora.</p>
+                  <span>Aug 2015 - May 2016 </span>
+                  <p>Systems Consultant Company where I was hire to work with the fantastic <a href="http://somospnt.com/"><span>SomosPNT team</span></a> to solve problems
+                  a develop solutions for <a href="http://www.fravega.com/"><span>Fravega Ecommerce</span></a> and <a href="http://www.movistar.com.ar/"><span>Movistar Web</span></a>, in my case,
+                  as backend software developer.
+                  </p>
+                </div>
+              </div>
+              <div className="cd-timeline-block wow fadeIn a6" data-wow-delay="0.5s">
+                <div className="cd-timeline-img"/>
+                <div className="cd-timeline-content col m5 s12 z-depth-1">
+                  <a href="https://www.connectis-argentina.com/en-home">
+                    <h2>IT Support <br/> Asociación Católica Irlandesa</h2>
+                  </a>
+                  <span>Mar 2015 - Aug 2015 </span>
+                  <p>Servers maintenance and backups. Infrastructure and networks
+                  configuration and deployment, Technical support.
+                  </p>
                 </div>
               </div>
             </div>
@@ -217,215 +237,6 @@ export default () => (
         </div>
       </section>
 
-      <section id="portfolio">
-        <div className="container">
-          <div className="row">
-            <div className="section-title wow fadeIn a1" data-wow-delay="0.1s">
-              <h2><i className="fa fa-th-list"/>Portfolio</h2>
-            </div>
-            <div className="col m12 s12 portfolio-nav">
-              <ul>
-                <li className="filter" data-filter="all">Show All</li>
-                <li className="filter" data-filter=".category-1">Art</li>
-                <li className="filter" data-filter=".category-2">Icons</li>
-                <li className="filter" data-filter=".category-3">Web Design</li>
-                <li className="filter" data-filter=".category-4">Materials</li>
-              </ul>
-            </div>
-            <div id="loader">
-              <div className="loader-icon"/>
-            </div>
-            <div className="screenshots" id="portfolio-item" >
-              <div className="row">
-                <ul className="grid">
-                  <li className="col m3 s12 mix category-1">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-one">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot 01"/>
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Minimal Design</h2>
-                              <p>Work hard {'for'} what you want because
-                              it won&apos;t come to you without a fight</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li className="col m3 s12 mix category-2">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-two">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot 01"/>
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Lorem Design</h2>
-                              <p>Work hard for what you want because
-                                                          it won&apos;t come to you without a fight</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li className="col m3 s12 mix category-1">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-three">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot 01"/>
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Creative Design</h2>
-                              <p>Lorem Ipsum because
-                                                          it won&apos;t come to you without a fight</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li className="col m3 s12 mix category-2">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-four">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot 01"/>
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Material Design</h2>
-                              <p>Work hard for what you want because
-                                                          it won&apos;t come to you.</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li className="col m3 s12 mix category-4">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-five">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot 01"/>
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Clean Code</h2>
-                              <p>You want because
-                                                          it won&apos;t come to you without a fight</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li className="col m3 s12 mix category-1">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-six">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot 01"/>
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>SEO Optimize</h2>
-                              <p>Work hard for what you want because
-                                                          it won&apos;t come to you without a fight</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li className="col m3 s12 mix category-2">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-seven">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot"/>
-                        <figcaption>
-                          <div className="caption-content">
-                            <div className="single_image">
-                              <h2>Responsive Design</h2>
-                              <p>Work hard for what you want because
-                                                          it won&apos;t come to you without a fight</p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                  <li className="col m3 s12 mix category-3">
-                    <a href="project.html" className="sa-view-project-detail" data-action="#project-eight">
-                      <figure className="more">
-                        <img src="/static/images/p-1.jpg" alt="Screenshot 01"/>
-                        <figcaption>
-                          <div className="caption-content ">
-                            <div className="single_image">
-                              <h2>Minimal Design</h2>
-                              <p>
-                                                          Work hard for what you want need lorem ipsuum. </p>
-                            </div>
-                          </div>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="sa-project-gallery-view" id="project-gallery-view"/>
-            <div className="back-btn col s12">
-              <a id="back-button" className="btn btn-info waves-effect" href="#" ><i className="fa fa-long-arrow-left"/> Go Back </a>
-            </div>
-
-            <div className="market-place col m12 s12 z-depth-1 wow fadeIn a3" data-wow-delay="0.3s">
-              <ul>
-                <li><a href=""><h3>Behence</h3></a></li>
-                <li><a href=""><h3>Dribble</h3></a></li>
-                <li><a href=""><h3>Envato</h3></a></li>
-                <li><a href=""><h3>Github</h3></a></li>
-                <li><a href=""><h3>Twitter</h3></a></li>
-                <li><a href=""><h3>Facebook</h3></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="education">
-        <div className="container">
-          <div className="row">
-            <div className="section-title wow fadeIn a1" data-wow-delay="0.1s">
-              <h2> <i className="fa fa-graduation-cap"/>Education</h2>
-            </div>
-
-            <div className="cd-container" id="ed-timeline">
-              <div className="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
-                <div className="cd-timeline-img"/>                   			<div className="cd-timeline-content col m5 s12 z-depth-1">
-                  <a href=""><h2>UI & WEB DESIGNER @Academy</h2></a>
-                  <span>11 Jan 2015 </span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora.</p>
-                </div>                   		</div>                   		<div className="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
-                  <div className="cd-timeline-img"/>                   			<div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href=""><h2>UI & WEB DESIGNER @Academy</h2></a>
-                    <span>11 Jan 2015 </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                    dolorum provident rerum aut hic quasi placeat iure tempora.</p>
-                  </div>                   		</div>
-              <div className="cd-timeline-block wow fadeIn a4" data-wow-delay="0.4s">
-                <div className="cd-timeline-img"/>                   			<div className="cd-timeline-content col m5 s12 z-depth-1">
-                  <a href=""><h2>UI & WEB DESIGNER @Academy</h2></a>
-                  <span>11 Jan 2015 </span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora.</p>
-                </div>                   		</div>                   		<div className="cd-timeline-block wow fadeIn a5" data-wow-delay="0.5s">
-                  <div className="cd-timeline-img"/>                   			<div className="cd-timeline-content col m5 s12 z-depth-1">
-                    <a href=""><h2>UI & WEB DESIGNER @Academy</h2></a>
-                    <span>11 Jan 2015 </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                    dolorum provident rerum aut hic quasi placeat iure tempora.</p>
-                  </div>                   		</div>                   	</div>
-          </div>
-        </div>
-      </section>
       <section id="blog">
         <div className="container">
           <div className="row">
@@ -445,9 +256,8 @@ export default () => (
                         </a>
                       </div>
                       <div className="post-details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare arcu ac velit ultricies fermentum.
+                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
                       </div>
                     </div>
                   </div>
@@ -464,11 +274,11 @@ export default () => (
                       </div>
                       <div className="post-details">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                        Aliquam ornare arcu ac velit ultricies fermentum.
+                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                        Aliquam ornare arcu ac velit ultricies fermentum.
+                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
                       </div>
                     </div>
                   </div>
@@ -485,8 +295,8 @@ export default () => (
                       </div>
                       <div className="post-details">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                        Aliquam ornare arcu ac velit ultricies fermentum.
+                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
                       </div>
                     </div>
                   </div>
@@ -503,11 +313,11 @@ export default () => (
                       </div>
                       <div className="post-details">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
                       </div>
                     </div>
                   </div>
@@ -524,11 +334,11 @@ export default () => (
                       </div>
                       <div className="post-details">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
                       </div>
                     </div>
                   </div>
@@ -545,8 +355,8 @@ export default () => (
                       </div>
                       <div className="post-details">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.
-                                              Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.
+                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
                       </div>
                     </div>
                   </div>
@@ -557,56 +367,27 @@ export default () => (
         </div>
       </section>
 
-      <section id="pricing-table">
+      <section id="education">
         <div className="container">
           <div className="row">
             <div className="section-title wow fadeIn a1" data-wow-delay="0.1s">
-              <h2> <i className="fa  fa-money "/>Pricing Table </h2>
+              <h2> <i className="fa fa-graduation-cap"/>Education</h2>
             </div>
-            <div className="pricing wow fadeIn a3" data-wow-delay="0.3s">
-              <div className="row">
-                <div className="plan col m4 s12">
-                  <ul className="thumbnail z-depth-1">
-                    <li> <strong>START-UP</strong> </li>
-                    <li> <h3>$299</h3> </li>
-                    <li><div className="span"> Logo</div></li>
-                    <li><div className="span"> Domine & Hosting</div></li>
-                    <li><div className="span"> One Page Landing</div></li>
-                    <li><div className="span"> Email Marketing</div></li>
-                    <li><div className="span"> Email Marketing</div></li>
-                    <li><div className="span"> SEO</div></li>
-                    <li> <button type="button" className="btn btn-info waves-effect">Order now</button></li>
-                  </ul>
+
+            <div className="cd-container" id="ed-timeline">
+              <div className="cd-timeline-block wow fadeIn a2" data-wow-delay="0.2s">
+                <div className="cd-timeline-img"/>
+                <div className="cd-timeline-content col m5 s12 z-depth-1">
+                  <a href="https://www.uade.edu.ar/"><h2>Bachelor&apos;s degree in Information Technology Management <br/> UADE</h2></a>
+                  <span>Feb 2017 - Dec 2019 (Estimated)</span>
+                  <p>A career mixed with information systems technical development and entrepreneurship management.</p>
                 </div>
-                <div className="plan col m4 s12">
-                  <ul className="thumbnail z-depth-1">
-                    <li> <strong>SMALL BUSINESS</strong> </li>
-                    <li> <h3>$499</h3> </li>
-                    <li><div className="span"> Logo</div></li>
-                    <li><div className="span"> Domine & Hosting</div></li>
-                    <li><div className="span"> One Page Landing</div></li>
-                    <li><div className="span"> Adsence</div></li>
-                    <li><div className="span"> Email Marketing</div></li>
-                    <li><div className="span"> SEO</div></li>
-                    <li><button type="button" className="btn btn-info waves-effect">Order now</button></li>
-                  </ul>
-                </div>
-                <div className="plan col m4 s12">
-                  <ul className="thumbnail z-depth-1">
-                    <li> <strong>ENTERPRISE</strong></li>
-                    <li> <h3>$799</h3> </li>
-                    <li><div className="span"> Logo</div></li>
-                    <li><div className="span"> Domine & Hosting</div></li>
-                    <li><div className="span"> One Page Landing</div></li>
-                    <li><div className="span"> One Page Landing</div></li>
-                    <li><div className="span"> Email Marketing</div></li>
-                    <li><div className="span"> SEO</div></li>
-                    <li>
-                      <button type="button" className="btn btn-info waves-effect">
-                    Order now
-                    </button>
-                    </li>
-                  </ul>
+              </div>
+              <div className="cd-timeline-block wow fadeIn a3" data-wow-delay="0.3s">
+                <div className="cd-timeline-img"/>                   			<div className="cd-timeline-content col m5 s12 z-depth-1">
+                  <a href="https://www.frba.utn.edu.ar/"><h2>Systems Information Engineering <br/> UTN</h2></a>
+                  <span>Feb 2015 - Dec 2016 </span>
+                  <p>2 years of studies until I change of university.</p>
                 </div>
               </div>
             </div>
@@ -614,7 +395,7 @@ export default () => (
         </div>
       </section>
 
-      <section id="clients">
+      <section id="testimonials">
         <div className="container">
           <div className="row">
             <div className="section-title wow fadeIn a1" data-wow-delay="0.1s">
@@ -652,18 +433,6 @@ export default () => (
               </div>
             </div>
             <div className="clear"/>
-            <div className="clients-logo z-depth-1">
-              <div className="row">
-                <ul className="wow fadeIn a4" data-wow-delay="0.4s">
-                  <li className="col m2 s6"><a href=""><img src="/static/images/client1.png" alt="" className="responsive-img"/></a></li>
-                  <li className="col m2 s6"><a href=""><img src="/static/images/client2.png" alt="" className="responsive-img"/></a></li>
-                  <li className="col m2 s6"><a href=""><img src="/static/images/client3.png" alt="" className="responsive-img"/></a></li>
-                  <li className="col m2 s6"><a href=""><img src="/static/images/client4.png" alt="" className="responsive-img"/></a></li>
-                  <li className="col m2 s6"><a href=""><img src="/static/images/client6.png" alt="" className="responsive-img"/></a></li>
-                  <li className="col m2 s6"><a href=""><img src="/static/images/client7.png" alt="" className="responsive-img"/></a></li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -678,7 +447,7 @@ export default () => (
                 <form d id="contactForm">
                   <div id="msgSubmit" className="h3 text-center hidden"/>
                   <div className="input-field col m6 s12 wow fadeIn a2" data-wow-delay="0.2s">
-                    <label htmlFor="name" className="h4">Full Name *</label>
+                    <label htmlFor="name" className="h4">Name *</label>
                     <input required type="text" className="form-control validate" id="name" data-error="NEW ERROR MESSAGE"/>
                   </div>
                   <div className="input-field col m6 s12 wow fadeIn a4" data-wow-delay="0.4s">
@@ -691,10 +460,10 @@ export default () => (
                   </div>
                   <div className="input-field col m6 s12 wow fadeIn a5" data-wow-delay="0.5s" >
                     <select>
-                      <option value="">Choose your Budget</option>
-                      <option value="1">$10000-$20000</option>
-                      <option value="2">$50000-$100000</option>
-                      <option value="3">$50000-$1000000</option>
+                      <option value="">Choose a reason</option>
+                      <option value="1">Professional</option>
+                      <option value="2">Personal</option>
+                      <option value="3">Both or other</option>
                     </select>
                   </div>
                   <div className="input-field col m12 s12 wow fadeIn a6" data-wow-delay="0.6s">
@@ -710,12 +479,12 @@ export default () => (
             <div className="interests col s12 m12 l12 wow fadeIn" data-wow-delay="0.1s">
               <div className="row">
                 <ul className="z-depth-1">
-                  <li><i className="fa fa-facebook-official tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Facebook"/></li>
-                  <li><i className="fa fa-twitter tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Twitter"/></li>
-                  <li><i className="fa fa-linkedin tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="linkedin"/></li>
+                  <a href="https://www.facebook.com/miras.federico"><li><i className="fa fa-facebook-official tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Facebook"/></li></a>
+                  <a href="https://twitter.com/mirasfederico"><li><i className="fa fa-twitter tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Twitter"/></li></a>
+                  <a href="https://www.linkedin.com/in/fmiras/"><li><i className="fa fa-linkedin tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="LinkedIn"/></li></a>
                   <li><i className="fa fa-whatsapp tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Whatsapp"/></li>
-                  <li><i className="fa fa-youtube tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Youtube"/></li>
-                  <li><i className="fa fa-vimeo tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Vimeo"/></li>
+                  <a href="https://github.com/fmiras/"><li><i className="fa fa-github tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="Github"/></li></a>
+                  <a href="https://angel.co/fmiras"><li><i className="fa fa-angellist tooltipped col m2 s6" data-position="top" data-delay="50" data-tooltip="AngelList"/></li></a>
                 </ul>
               </div>
             </div>
