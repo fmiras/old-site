@@ -78,7 +78,7 @@ export default () => (
             <div className="intro z-depth-1 col m12">
               <div className="col m12 s12">
                 <div className="profile-pic wow fadeIn a1" data-wow-delay="0.1s" >
-                  <img src="/static/images/proflpic.jpg" alt=""/>
+                  <img src="/static/images/fmiras.jpg" alt=""/>
                 </div>
               </div>
               <div className="col m12 s12 co-centered wow fadeIn a2" data-wow-delay="0.2s">
