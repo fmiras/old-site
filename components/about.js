@@ -24,9 +24,8 @@ export default () => (
                 glad to hear your idea, I just recommend you to read some of
                 my <a href="#blog"><span>words</span></a>, and see some of
                 my <a href="https://github.com/fmiras"><span>code</span></a>
-                (even this
-                <a href="https://github.com/fmiras/site"><span>site</span></a>
-                is available to see!).
+                (even this <a href="https://github.com/fmiras/site"><span>site</span></a> is
+                available to see!).
               </p>
               <a href="#" className="btn waves-effect">Download CV</a>
               <a href="#contact-form" className="btn btn-success waves-effect">
