@@ -37,6 +37,18 @@ export default class MyDocument extends Document {
        <body>
          <Main />
          <NextScript />
+
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"/>
+         <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"/>
+         <script src="/static/js/masonry.pkgd.js"/>
+         <script src="/static/js/jquery.fancybox.pack.js"/>
+         <script src="/static/js/validator.min.js"/>
+         <script src="/static/js/jquery.nav.js"/>
+         <script src="/static/js/modernizr.js"/>
+         <script src="/static/js/jquery.sticky.js"/>
+         <script src="/static/js/wow.min.js"/>
+         <script src="/static/js/init.js"/>
        </body>
      </html>
     )
