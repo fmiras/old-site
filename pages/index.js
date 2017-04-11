@@ -5,7 +5,7 @@ export default () => (
     <Head>
       <meta charSet="utf-8"/>
 
-      <title> Material CV/Resume </title>
+      <title> Federico Mirás </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta name="description" content="Materialize portfolio one page template, Using for personal website."/>
       <meta name="keywords" content="cv, resume, portfolio, materialize, onepage, personal, blog"/>
@@ -88,7 +88,8 @@ export default () => (
                   <p>Hi! My name is Federico, you can just call me &quot;fefo&quot;.
                   I&apos;m a 20-years old software developer and entrepreneurship enthusiastic
                   always searching, discussing or creating ideas to turn them into high-tech projects.
-                  I&apos;m also a freelance developer!
+                  I&apos;m also a freelance developer, If you are thinking on working with me I&apos;ll be glad
+                  to hear your idea, I just recommend you to read some of my <a href="#blog"><span>words</span></a>, and see some of my <a href="https://github.com/fmiras"><span>code</span></a> (even this <a href="https://github.com/fmiras/site"><span>site</span></a> is available to see!).
                   </p>
                   <a href="#" className="btn waves-effect">Download CV</a>
                   <a href="#contact-form" className="btn btn-success waves-effect">Contact Me</a>
@@ -247,116 +248,15 @@ export default () => (
               <div className="blog">
                 <div className="col m4 s12 blog-post wow fadeIn a2" data-wow-delay="0.2s">
                   <div className="thumbnail z-depth-1 animated">
-                    <a href="blog-full-post.html"><img src="/static/images/b-1.jpg" alt="" className="responsive-img"/></a>
                     <div className="blog-details">
                       <div className="post-title" id="blog-post-1">
                         <a href="blog-full-post.html">
-                          <h2>Website Design</h2>
-                          <span>branding, ui-ux, article</span>
+                          <h2>University in 2017</h2>
+                          <span>Education and business</span>
                         </a>
                       </div>
                       <div className="post-details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare arcu ac velit ultricies fermentum.
-                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col m4 s12 blog-post wow fadeIn a3" data-wow-delay="0.3s">
-                  <div className="thumbnail z-depth-1">
-                    <a href="blog-full-post.html"><img src="/static/images/b-1.jpg" alt="" className="responsive-img"/></a>
-                    <div className="blog-details">
-                      <div className="post-title" id="blog-post-2">
-                        <a href="blog-full-post.html">
-                          <h2>Website Redesign</h2>
-                          <span>branding, ui-ux, article</span>
-                        </a>
-                      </div>
-                      <div className="post-details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam ornare arcu ac velit ultricies fermentum.
-                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam ornare arcu ac velit ultricies fermentum.
-                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col m4 s12 blog-post wow fadeIn a4" data-wow-delay="0.4s">
-                  <div className="thumbnail z-depth-1">
-                    <a href="blog-full-post.html"><img src="/static/images/b-1.jpg" alt="" className="responsive-img"/></a>
-                    <div className="blog-details">
-                      <div className="post-title" id="blog-post-3">
-                        <a href="blog-full-post.html">
-                          <h2>Music Player Design</h2>
-                          <span>branding, ui-ux, article</span>
-                        </a>
-                      </div>
-                      <div className="post-details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam ornare arcu ac velit ultricies fermentum.
-                        Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col m4 s12 blog-post wow fadeIn a5" data-wow-delay="0.5s">
-                  <div className="thumbnail z-depth-1">
-                    <a href="blog-full-post.html"><img src="/static/images/b-1.jpg" alt="" className="responsive-img"/></a>
-                    <div className="blog-details">
-                      <div className="post-title" id="blog-post-4">
-                        <a href="blog-full-post.html">
-                          <h2>Marketing Partner</h2>
-                          <span>branding, ui-ux, article</span>
-                        </a>
-                      </div>
-                      <div className="post-details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col m4 s12 blog-post wow fadeIn a6" data-wow-delay="0.6s">
-                  <div className="thumbnail z-depth-1">
-                    <a href="blog-full-post.html"><img src="/static/images/b-1.jpg" alt="" className="responsive-img"/></a>
-                    <div className="blog-details">
-                      <div className="post-title" id="blog-post-6">
-                        <a href="blog-full-post.html">
-                          <h2>Marketing Partner</h2>
-                          <span>branding, ui-ux, article</span>
-                        </a>
-                      </div>
-                      <div className="post-details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col m4 s12 blog-post wow fadeIn a7" data-wow-delay="0.7s">
-                  <div className="thumbnail z-depth-1">
-                    <a href="blog-full-post.html"><img src="/static/images/b-1.jpg" alt="" className="responsive-img"/></a>
-                    <div className="blog-details">
-                      <div className="post-title" id="blog-post-5">
-                        <a href="blog-full-post.html">
-                          <h2>Web development </h2>
-                          <span>branding, ui-ux, article</span>
-                        </a>
-                      </div>
-                      <div className="post-details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.
-                                                    Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                        <p>Degrees, careers, some thoughts, opinions and a little bit of TV shows.</p>
                       </div>
                     </div>
                   </div>
@@ -399,35 +299,18 @@ export default () => (
         <div className="container">
           <div className="row">
             <div className="section-title wow fadeIn a1" data-wow-delay="0.1s">
-              <h2> <i className="fa fa-quote-left"/>Clients</h2>
+              <h2> <i className="fa fa-quote-left"/>Testimonials</h2>
             </div>
             <div className="clients-quates wow fadeIn a3" data-wow-delay="0.3s">
               <div className="row">
                 <div className="quates col m4 s12">
                   <div className="thumbnail z-depth-1">
                     <img src="/static/images/team1.jpg" alt=""/>
-                    <h3>Jhon Doe</h3>
-                    <span>CEO, Creative Market</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                                      ornare arcu ac velit ultricies fermentum. Aliquam ornare arcu ac velit ultricies fermentum..</p>
-                  </div>
-                </div>
-                <div className="quates col m4 s12">
-                  <div className="thumbnail z-depth-1">
-                    <img src="/static/images/team1.jpg" alt=""/>
-                    <h3>Jhon Adnan</h3>
-                    <span>CEO, Lorem Ipsum</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                      Aliquam ornare arcu ac velit ultricies fermentum.Aliquam ornare arcu ac velit ultricies fermentum.</p>
-                  </div>
-                </div>
-                <div className="quates col m4 s12">
-                  <div className="thumbnail z-depth-1">
-                    <img src="/static/images/team1.jpg" alt=""/>
-                    <h3>Mark Anwar</h3>
-                    <span>CEO, Bdpark Market</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                      Aliquam ornare arcu ac velit ultricies fermentum. Aliquam ornare arcu ac velit ultricies fermentum.</p>
+                    <h3>Mariano Sola</h3>
+                    <span>Sr. Java Developer, ProKarma</span>
+                    <p>I had the opportunity of build a great team with Federico some years ago. He is a self confident guy who is very clear in his life objectives, a good friend, a positive thinking person, very mature and collaborative, also a honest and passionate software developer.
+                    He taught me several new technologies and he was always looking for improvements in different aspects of his life.
+                    I wish him the very best in his profesional career and personal life.</p>
                   </div>
                 </div>
               </div>
