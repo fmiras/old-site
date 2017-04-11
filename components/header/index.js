@@ -1,13 +1,9 @@
+import ContactData from './contact-data'
+
 export default () => (
   <header id="header-top">
-    <div className="container">
-      <div className="row">
-        <div className="top-contact col m12 s12 right">
-          <span><i className="fa fa-envelope"/> <a href="mailto:">miras.federico@gmail.com</a></span>
-          <span><i className="fa fa-phone"/> <a href="tel:">+5491166300062 </a></span>
-        </div>
-      </div>
-    </div>
+    <ContactData/>
+
     <div id="header-bottom" className="z-depth-1">
       <div id="sticky-nav">
         <div className="container">
@@ -33,7 +29,9 @@ export default () => (
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact-form">Contact</a></li>
               </ul>
-              <a href="#" data-activates="slide-out" className="button-collapse"><i className="mdi-navigation-menu"/></a>
+              <a href="#" data-activates="slide-out" className="button-collapse">
+                <i className="mdi-navigation-menu"/>
+              </a>
             </nav>
           </div>
         </div>
