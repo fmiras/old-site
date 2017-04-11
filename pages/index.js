@@ -15,14 +15,14 @@ export default () => (
       <title> Federico Mirás </title>
     </Head>
     <div className="body">
-      <Header />
-      <About />
-      <Skills />
-      <Works />
-      <Blog />
-      <Education />
-      <Testimonials />
-      <Contact />
+      <Header/>
+      <About/>
+      <Skills/>
+      <Works/>
+      <Blog/>
+      <Education/>
+      <Testimonials/>
+      <Contact/>
     </div>
   </div>
 )

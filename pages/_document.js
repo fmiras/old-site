@@ -1,56 +1,56 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, {Head, Main, NextScript} from 'next/document'
 import flush from 'styled-jsx/server'
 
 export default class MyDocument extends Document {
-  static getInitialProps ({ renderPage }) {
+  static getInitialProps({renderPage}) {
     const {html, head} = renderPage()
     const styles = flush()
-    return { html, head, styles }
+    return {html, head, styles}
   }
 
-  render () {
+  render() {
     return (
-     <html>
-       <Head>
-        <meta charSet="utf-8"/>
+      <html>
+        <Head>
+          <meta charSet="utf-8"/>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="icon" href="/static/images/favicon.ico"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="/static/images/apple-icon-72x72.png"/>
-        <link rel="apple-touch-icon" sizes="76x76" href="/static/images/apple-icon-76x76.png"/>
-        <link rel="apple-touch-icon" sizes="114x114" href="/static/images/apple-icon-114x114.png"/>
+          <link rel="icon" href="/static/images/favicon.ico"/>
+          <link rel="apple-touch-icon" sizes="72x72" href="/static/images/apple-icon-72x72.png"/>
+          <link rel="apple-touch-icon" sizes="76x76" href="/static/images/apple-icon-76x76.png"/>
+          <link rel="apple-touch-icon" sizes="114x114" href="/static/images/apple-icon-114x114.png"/>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500,300,400" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/static/css/timeline.css"/>
-        <link rel="stylesheet" href="/static/css/animate.css"/>
-        <link rel="stylesheet" href="/static/css/nav.css"/>
-        <link rel="stylesheet" href="/static/css/jquery.fancybox.css"/>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500,300,400" type="text/css"/>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css"/>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+          <link rel="stylesheet" href="/static/css/timeline.css"/>
+          <link rel="stylesheet" href="/static/css/animate.css"/>
+          <link rel="stylesheet" href="/static/css/nav.css"/>
+          <link rel="stylesheet" href="/static/css/jquery.fancybox.css"/>
 
-        <link rel="stylesheet" href="/static/css/style.css"/>
-        <link rel="stylesheet" href="/static/css/responsive.css"/>
+          <link rel="stylesheet" href="/static/css/style.css"/>
+          <link rel="stylesheet" href="/static/css/responsive.css"/>
 
-        <link rel="stylesheet" href="/static/css/color/lime.css" title="lime"/>
-       </Head>
-       <body>
-         <Main />
-         <NextScript />
+          <link rel="stylesheet" href="/static/css/color/lime.css" title="lime"/>
+        </Head>
+        <body>
+          <Main/>
+          <NextScript/>
 
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"/>
-         <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"/>
-         <script src="/static/js/masonry.pkgd.js"/>
-         <script src="/static/js/jquery.fancybox.pack.js"/>
-         <script src="/static/js/validator.min.js"/>
-         <script src="/static/js/jquery.nav.js"/>
-         <script src="/static/js/modernizr.js"/>
-         <script src="/static/js/jquery.sticky.js"/>
-         <script src="/static/js/wow.min.js"/>
-         <script src="/static/js/init.js"/>
-       </body>
-     </html>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"/>
+          <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"/>
+          <script src="/static/js/masonry.pkgd.js"/>
+          <script src="/static/js/jquery.fancybox.pack.js"/>
+          <script src="/static/js/validator.min.js"/>
+          <script src="/static/js/jquery.nav.js"/>
+          <script src="/static/js/modernizr.js"/>
+          <script src="/static/js/jquery.sticky.js"/>
+          <script src="/static/js/wow.min.js"/>
+          <script src="/static/js/init.js"/>
+        </body>
+      </html>
     )
   }
 }
