@@ -27,7 +27,7 @@ export default () => (
                 (even this <a href="https://github.com/fmiras/site"><span>site</span></a> is
                 available to see!).
               </p>
-              <a href="#" className="btn waves-effect">Download CV</a>
+              <a href="https://docs.google.com/document/d/1E8KlImWrPPkGfqeoiglm54Y5Q1T_DyZSe5zMGBMqLaA/pub" className="btn waves-effect">Download CV</a>
               <a href="#contact-form" className="btn btn-success waves-effect">
                 Contact Me
               </a>
