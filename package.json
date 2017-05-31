@@ -5,7 +5,7 @@
     "dev": "next",
     "test": "xo",
     "build": "next build",
-    "start": "node server"
+    "start": "next start"
   },
   "xo": {
     "extends": "xo-react",
