@@ -22,7 +22,7 @@
     "next": "3.1.0",
     "react": "15.6.1",
     "react-dom": "15.6.1",
-    "styled-jsx": "1.0.10"
+    "styled-jsx": "2.2.1"
   },
   "devDependencies": {
     "eslint-config-xo-react": "0.12.0",
